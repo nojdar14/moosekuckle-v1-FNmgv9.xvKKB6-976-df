@@ -1,0 +1,34 @@
+/* Body styling to ensure full height and centering */
+body {
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center; /* Ensure text is centered */
+}
+
+/* Container for the buttons */
+.button-container {
+  display: flex; /* Use flexbox to arrange buttons horizontally */
+  gap: 10px; /* Adds space between the buttons */
+  justify-content: center; /* Ensure the buttons are centered */
+}
+
+/* Basic button styling */
+button {
+  width: 120px; /* Set width of buttons */
+  height: 50px; /* Set height of buttons */
+  font-size: larger; /* Increase the font size */
+  cursor: pointer; /* Add pointer cursor */
+  padding: 10px 24px; /* Add padding inside buttons */
+
+  color: rgb(0, 0, 0); /* White text color */
+  border: none; /* Remove default button border */
+
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+p {
+  margin-bottom: 20px; /* Adds space below the paragraph */
+  font-weight: bold;
+}
